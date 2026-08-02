@@ -83,3 +83,17 @@ int main() {
 }
  return 0;
 }
+#8th Program 
+#include<iostream>
+using namespace std;
+int main() {
+    
+    for(int r=1;r<=3;r++) { //outside loop(rows)
+        
+     for(int s=1;s<=10;s++){ //inner loop(stars)
+         cout<<"*";
+     }
+       cout<<endl;
+    }
+    return 0;
+}
