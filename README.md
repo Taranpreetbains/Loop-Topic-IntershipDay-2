@@ -97,3 +97,25 @@ int main() {
     }
     return 0;
 }
+
+
+
+#9th Program 
+
+#include<iostream>
+using namespace std;
+int main() {
+    int row;
+    
+    cout<<"\n enter the rows you want:";
+    cin>>row;
+    
+    for(int i=1;i<=row;i++) { //outside loop(rows)
+        
+     for(int s=1;s<=i;s++){ //inner loop(stars)
+         cout<<"*";
+     }
+       cout<<endl;
+    }
+    return 0;
+}
