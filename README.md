@@ -50,3 +50,14 @@ int sum=0;
     cout<<"\n Your sum of NUmbers are:"<<sum;
     return 0;
 }
+
+#5th Program (Even Numbers)
+#include<iostream>
+using namespace std;
+int main() {
+    
+    for(int i=2;i<=100;i+=2) {
+    cout<<"\n Your Even Numbers are:"<<i;
+}
+ return 0;
+}
