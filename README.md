@@ -20,3 +20,18 @@ int main() {
     }
     return 0;
 }
+
+#3rd Program 
+#include<iostream>
+using namespace std;
+int main() {
+int num;
+    
+  cout<<"\n enter any num here:";
+  cin>>num;
+   
+    for(int i=1;i<=10; i++)  {
+        cout<<num*i<<endl;
+    }
+    return 0;
+}
