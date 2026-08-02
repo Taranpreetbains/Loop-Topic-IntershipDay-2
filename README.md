@@ -119,3 +119,18 @@ int main() {
     }
     return 0;
 }
+
+#10th program 
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; ; i++) { // Condition nahi di
+        cout << "Number: " << i << endl;
+        
+        if (i == 120) {
+            break; // 120 aate hi loop ko zabardasti rok diya
+        }
+    }
+    return 0;
+}
