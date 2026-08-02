@@ -61,3 +61,14 @@ int main() {
 }
  return 0;
 }
+
+#6th Program (odd Numbers)
+#include<iostream>
+using namespace std;
+int main() {
+    
+    for(int i=1;i<=100;i+=2) {
+    cout<<"\n Your Odd Numbers are:"<<i;
+}
+ return 0;
+}
